@@ -68,6 +68,8 @@ comment:
   duoshuo: #chaooo ## duoshuo_shortname
   disqus: ## disqus_shortname
   livere: ## 来必力(data-uid)
+    enable: true
+    livere_uid: MTAyMC80MTcwMi8xODI0OA
   uyan: ## 友言(uid)
   cloudTie: ## 网易云跟帖(productKey)
   changyan: ## 畅言需在下方配置两个参数，此处不填。
@@ -115,5 +117,7 @@ links:
     url: https://blog.csdn.net/fancy_t
   - title: QQ:784601485
     url: tencent://message/?uin=784601485&Site=qq&Menu=yes
+
+  
 
 
