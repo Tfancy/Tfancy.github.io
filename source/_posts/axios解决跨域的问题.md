@@ -1,8 +1,8 @@
 ---
 layout: 基于vue
-title: axios解决
-date: 2018-12-17 20:09:07
-tags: vue
+title: axios解决跨域的问题
+date: 2018-12-18 08:54:18
+tags:
 ---
 
 本文是通过vue-cli的proxyTable可以解决跨域，还有通过ngnix的方法，本文暂不提供了。
