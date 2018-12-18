@@ -1,7 +1,6 @@
 ---
-layout: 基于vue
-title: axios解决跨域的问题
-date: 2018-12-18 08:54:18
+title: 基于vue+axios解决跨域的问题
+date: 2018-12-18 09:00:15
 tags:
 ---
 
