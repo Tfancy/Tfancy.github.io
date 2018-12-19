@@ -4,7 +4,7 @@ date: 2018-12-18 09:00:15
 tags: vue
 ---
 
-本文是通过vue-cli的proxyTable可以解决跨域，还有通过ngnix的方法，本文暂不提供了。
+本文是通过vue-cli的proxyTable解决跨域，还有通过ngnix或者jsonp的方法，本文暂不提供了。
 
 **解决思路**：先使用axios实现一个简单的网络请求，再设置跨域会显得比较简单。
 
