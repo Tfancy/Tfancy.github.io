@@ -41,11 +41,8 @@ public class HelloController {
     }
 }
 ```
-<font color=red>
-**注意：**</font> 启动类xxxApplication.java必须放在代码的最上层，spring扫描的时候只会扫描启动类所在的包以及其子包。在这个例子里，启动类就应该放到com.tjm下面。不放也行！那就要在启动类主动扫描包的操作，如@ComponentScan(basePackages={"com.tjm.controller"})  
-
 **第五步**，启动main方法，在浏览器中输入：[http://localhost:8080/hello](https://note.youdao.com/)。完~  
-
+<font color=red>**注意：**</font> 启动类xxxApplication.java必须放在代码的最上层，spring扫描的时候只会扫描启动类所在的包以及其子包。在这个例子里，启动类就应该放到com.tjm下面。不放也行！那就要在启动类主动扫描包的操作，如@ComponentScan(basePackages={"com.tjm.controller"})    
 
 题外话：在根目录有两个文件mvnw和mvnw.cmd，如果你看他们不顺眼可以删掉的。（ 这两个文件只是允许你在没有Maven安装的情况下运行Maven项目）
 
